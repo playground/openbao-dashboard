@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'openbao-dashboard';
+  showMenu = false;
+
+  toggleNavbar() {
+    this.showMenu = !this.showMenu;
+  }
 }
